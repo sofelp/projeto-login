@@ -19,13 +19,6 @@ body, html {
     height: 100vh;
 }
 
-section#login > div#imagem {
-    display: block;
-    background-image: url(../imagens/logos.png);
-    height: 200px;
-    background-size: cover;
-}
-
 main {
     position: relative;
     width: 100vw;
@@ -45,17 +38,70 @@ section#login {
     height: 600px;
 }
 
+section#login > div#imagem {
+    display: block;
+    background-image: url(../imagens/logos.png);
+    height: 200px;
+    background-size: cover;
+}
+
+
 section#login > div#formulario {
     padding: 10px;
 }
 
 div#formulario > p {
-    font-size: 0.9em;
+    font-size: 0.8em;
+    margin-bottom: 20px;
 
 }
 
 div#formulario > h1 {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     margin-top: 5px;
-    
+    color: var(--cor002);
+}
+
+/*Botões do Formulário:*/
+
+div#campo {
+    background-color: var(--cor001);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 7px 0px;
+}
+
+div > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    background-color: var(--cor003);
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form > a {
+    display: block;
+    text-decoration: none;
+    color: var(--cor003);
+    margin-top: 10px;
+ text-align: center;
+}
+
+.botao {
+    color: white;
+}
+
+span {
+    color: white;
+    display: block;
+    margin-top: 5px;
+
 }

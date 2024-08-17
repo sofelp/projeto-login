@@ -19,18 +19,18 @@
                     Olá, Bem vindo novamente! faça login para ter acesso a sua conta.
                 </p>
                 <form action="login.php" method="post" autocomplete="on">
-                    <div id="campoemail">
+                    <div id="campo">
                         <span class="material-symbols-outlined">mail</span>
                         <input type="email" id="iemail" autocomplete="email" placeholder="exemplo@email.com" required maxlength="50">
                         <label for="iemail">E-mail</label>
                     </div>
-                    <div id="camposenha">
+                    <div id="campo">
                         <span class="material-symbols-outlined">lock</span>
                         <input type="password" id="isenha" autocomplete="current-password" minlength="8" maxlength="30" required placeholder="ex: 12345678">
                         <label for="isenha">Senha</label>
                     </div>
-                    <input type="submit" value="Enviar">
-                    <a href="#">Esqueci a Senha</a>
+                    <input class="botao" type="submit" id="enviar" value="Enviar">
+                    <a href="#" id="esqueci">Esqueci a Senha</a>
                 </form>
             </div>
         
