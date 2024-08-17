@@ -2,7 +2,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 992px) /*Versão Tablet*/{
     section#login {
-      width: 80vw;
+      width: 70vw;
+      transition: 0.3s;
     }
 
     section#login > div#imagem {
@@ -16,22 +17,31 @@
     body,html {
         background-image: linear-gradient(to top, var(--cor001), var(--cor002));
     }
+    div#formulario > h1 {
+        margin-bottom: 5px;
+     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /*Versão pc*/
     section#login {
-        width: 990px;
+        width: 800px;
+        height: 450px;
+        transition: 0.3s;
       }
   
       section#login > div#imagem {
-          float: left;
-          width: 200px;
+          float: right;
+          width: 400px;
           height: 100%;
           background-position: top center;
-          margin-right: 15px;
+          margin-right: 30px;
       }
   
       body,html {
           background-image: linear-gradient(to top, var(--cor001), var(--cor002));
+     }
+
+     div#formulario > h1 {
+        margin-bottom: 10px;
      }
 }
