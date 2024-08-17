@@ -48,3 +48,14 @@ section#login {
 section#login > div#formulario {
     padding: 10px;
 }
+
+div#formulario > p {
+    font-size: 0.9em;
+
+}
+
+div#formulario > h1 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
